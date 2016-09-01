@@ -1,0 +1,24 @@
+﻿.tooltip {
+  position: absolute;
+  text-align: center;
+  padding: 5px;
+  font: 14px sans-serif;
+  background: #fdfdfd;
+  color: #1a1a1a;
+  border: 1px solid #9a9a9a;
+  border-radius: 4px;
+  pointer-events: none;
+  width: 200px;
+  height: 80px;
+}
+ 
+.top20{
+  margin-top:20px;
+}
+ .top40{
+  margin-top:40px;
+}
+ 
+ .top60{
+  margin-top:60px;
+}

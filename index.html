@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Bubble Chart</title>
+</head>
+<body>
+  <div class="container">
+    <div class="top20"></div>
+    <div class="row">
+      <div class="col-md-12">
+        <button class="btn btn-default" type="button" onclick="ChangeState()">
+          <span>Toggle</span>
+        </button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div id="bub"></div>
+      </div>
+    </div>
+    <div class="top60"></div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="//d3js.org/d3.v3.min.js"></script>
+  <script src="data.js"></script>
+  <script src="brokers.js"></script>
+  <script src="bubble-chart-service.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
